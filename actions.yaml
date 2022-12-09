@@ -1,0 +1,2 @@
+get-uri:
+  description: Returns the URI of the associated DB

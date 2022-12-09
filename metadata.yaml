@@ -1,0 +1,13 @@
+# Copyright 2022 Canonical Ltd.
+# See LICENSE file for licensing details.
+name: application
+description: |
+  Dummy application charm meant for DPE onborading
+summary: |
+  Dummy application charm meant for DPE onborading
+series:
+  - focal
+
+requires:
+  database:
+    interface: mongodb_client
